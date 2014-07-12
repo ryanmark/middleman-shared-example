@@ -1,7 +1,8 @@
 # Shared source example
 
-This is an example project that demonstrates sharing assets between middleman
-projects without copy-paste duplication.
+This is an example project that demonstrates sharing assets between 
+[Middleman](http://middlemanapp.com/) projects without copy-paste
+duplication.
 
 The project that lives in `shared` is effectively merged into the parent
 project on the fly by middleman. This `shared` directory is meant to be a
@@ -19,6 +20,10 @@ The hacked up middleman code can be found
 [here](https://github.com/ryanmark/middleman-sprockets/tree/v3-shared-source).
 
 ## Installation
+
+Make sure you have Bundler
+
+    sudo gem install bundler
 
 Just clone this repo, pull in the submodule and set it up like any other
 middleman project.
